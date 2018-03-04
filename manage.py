@@ -2,7 +2,7 @@
 from flask.ext.script import Manager,Server
 from flask.ext.migrate import Migrate,MigrateCommand
 
-from main import app, db, User ,Post ,Comment ,Tag
+from main import app, db, User ,Post ,Comment ,Tag  
 
 migrate=Migrate(app, db)
 
